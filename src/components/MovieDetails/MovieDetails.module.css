@@ -1,0 +1,32 @@
+.poster {
+    width: 250px;
+    height: 400px;
+}
+
+.movieDetails-container {
+    display: flex;
+    gap: 20px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.movie-info span {
+    font-weight: 700;
+}
+
+.links {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.additional-info {
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding: 10px 0px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,14 @@
+.title {
+    margin: 30px 10px;
+}
+
+.trending-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.active {
+    color: red;
+}
+
