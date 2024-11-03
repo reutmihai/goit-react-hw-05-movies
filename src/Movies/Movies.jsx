@@ -53,17 +53,18 @@ const Movies = () => {
 
   return (
     <div>
-        <form onSubmit={handleSubmit}>
-            <input 
-            type="text"
-            placeholder="Search a movie"
-            value={query}
-            onChange={handleChange}/>
-            <button>Search</button>
-        </form>
-            <MoviesList movies={movies}/>
+      <form onSubmit={handleSubmit} className="searchbar-form">
+        <input
+          type="text"
+          placeholder="Search a movie"
+          value={query}
+          onChange={handleChange}
+        />
+        <button>Search</button>
+      </form>
+      <MoviesList movies={movies} />
     </div>
-  )
+  );
 }
 
 export default Movies
